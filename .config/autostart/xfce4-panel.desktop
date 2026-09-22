@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=XFCE Panel (fallback)
+Comment=Start xfce4-panel if it is not already running (rice safety net)
+Exec=sh -c "pgrep -x xfce4-panel >/dev/null || xfce4-panel"
+OnlyShowIn=XFCE;
+X-XFCE-Autostart-Override=true
+Terminal=false
+StartupNotify=false
+Hidden=false
