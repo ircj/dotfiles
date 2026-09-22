@@ -145,3 +145,8 @@ pn()   { _load_nvm; pn "$@"; }
 # export PATH="$DOTNET_ROOT:$HOME/.dotnet/tools:$PATH"
 # export DOTNET_MULTILEVEL_LOOKUP=1
 export PATH="$PATH:$HOME/.dotnet/tools/"
+
+# Fastfetch bij het openen van een interactieve terminal (Tokyo Night rice)
+if [[ -o interactive ]] && command -v fastfetch >/dev/null 2>&1; then
+  fastfetch
+fi

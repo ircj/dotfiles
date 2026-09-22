@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Conky (Tokyo Night)
+Comment=System monitor widget for the Tokyo Night rice
+Exec=sh -c "sleep 5; pgrep -x conky >/dev/null || conky -c %h/.config/conky/tokyonight.conf"
+OnlyShowIn=XFCE;
+Terminal=false
+StartupNotify=false
+Hidden=false
