@@ -1,0 +1,10 @@
+[Desktop Entry]
+NoDisplay=true
+Version=1.0
+Encoding=UTF-8
+Type=X-XFCE-Helper
+X-XFCE-Category=TerminalEmulator
+X-XFCE-Commands=/home/IRC.LOCAL/jcolman/.local/bin/kitty
+X-XFCE-CommandsWithParameter=/home/IRC.LOCAL/jcolman/.local/bin/kitty -e "%s"
+Name=kitty
+Icon=/home/IRC.LOCAL/jcolman/.local/kitty.app/share/icons/hicolor/256x256/apps/kitty.png
