@@ -1,0 +1,10 @@
+# Geheimen — NOOIT committen
+.zsh_secrets.zsh
+*.secret
+*.key
+.env
+.env.*
+
+# OS-rommel
+.DS_Store
+Thumbs.db

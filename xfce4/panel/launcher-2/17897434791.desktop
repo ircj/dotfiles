@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=OpenCode Prompt
+Comment=Geef een prompt in en start OpenCode in een terminal
+Exec=/home/IRC.LOCAL/jcolman/.local/bin/opencode-prompt
+Icon=org.xfce.terminal
+Terminal=false
+Categories=Development;Utility;
+Keywords=opencode;ai;prompt;terminal;
+X-XFCE-Source=file:///home/IRC.LOCAL/jcolman/.local/share/applications/opencode-prompt.desktop

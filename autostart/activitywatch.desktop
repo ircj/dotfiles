@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=ActivityWatch
+Comment=Lokale tijd-/venstertracking (start server + watchers)
+Exec=/home/IRC.LOCAL/jcolman/.local/opt/activitywatch/aw-qt
+Icon=/home/IRC.LOCAL/jcolman/.local/opt/activitywatch/media/logo/logo.png
+Terminal=false
+X-GNOME-Autostart-enabled=true
+StartupNotify=false

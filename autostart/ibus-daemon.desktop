@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=IBus Daemon
+Comment=Start the IBus input method daemon for dead-key/compose support
+Exec=ibus-daemon -drx
+Terminal=false
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Phase=Initialization

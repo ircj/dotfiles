@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="dark-mode" type="bool" value="true"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="26"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="35"/>
+        <value type="int" value="1"/>
+        <value type="int" value="5"/>
+        <value type="int" value="31"/>
+        <value type="int" value="36"/>
+        <value type="int" value="4"/>
+        <value type="int" value="3"/>
+        <value type="int" value="2"/>
+        <value type="int" value="6"/>
+        <value type="int" value="8"/>
+        <value type="int" value="10"/>
+        <value type="int" value="32"/>
+        <value type="int" value="33"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="30"/>
+        <value type="int" value="34"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+        <value type="int" value="27"/>
+      </property>
+      <property name="mode" type="uint" value="0"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="enter-opacity" type="uint" value="100"/>
+      <property name="leave-opacity" type="uint" value="100"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="position" type="string" value="p=10;x=0;y=0"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="48"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="20"/>
+        <value type="int" value="22"/>
+        <value type="int" value="21"/>
+        <value type="int" value="7"/>
+      </property>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="enter-opacity" type="uint" value="90"/>
+      <property name="leave-opacity" type="uint" value="80"/>
+      <property name="length" type="uint" value="1"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="icon-size" type="uint" value="0"/>
+      <property name="mode" type="uint" value="0"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-4" type="string" value="pager">
+      <property name="rows" type="uint" value="1"/>
+      <property name="miniature-view" type="bool" value="false"/>
+      <property name="numbering" type="bool" value="false"/>
+      <property name="workspace-scrolling" type="bool" value="false"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="ibus paneel"/>
+        <value type="string" value="taakbeheerder"/>
+        <value type="string" value="netwerkbeheer-applet"/>
+        <value type="string" value="clipman"/>
+        <value type="string" value="ibus panel"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="task manager"/>
+        <value type="string" value="ctxbatterytray"/>
+        <value type="string" value="networkmanager applet"/>
+      </property>
+      <property name="known-items" type="array">
+        <value type="string" value="ulauncher"/>
+        <value type="string" value="chrome_status_icon_2"/>
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="ctxbatterytray"/>
+        <value type="string" value="remmina-icon"/>
+        <value type="string" value="toolbox"/>
+      </property>
+      <property name="hide-new-items" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="icon-size" type="int" value="0"/>
+      <property name="menu-is-primary" type="bool" value="false"/>
+      <property name="symbolic-icons" type="bool" value="false"/>
+      <property name="hidden-items" type="array">
+        <value type="string" value="chrome_status_icon_1"/>
+        <value type="string" value="remmina-icon"/>
+        <value type="string" value="toolbox"/>
+        <value type="string" value="ctxbatterytray"/>
+        <value type="string" value="chrome_status_icon_2"/>
+        <value type="string" value="ulauncher"/>
+      </property>
+      <property name="hidden-legacy-items" type="array">
+        <value type="string" value="task manager"/>
+        <value type="string" value="ibus paneel"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="ctxbatterytray"/>
+        <value type="string" value="ibus panel"/>
+        <value type="string" value="taakbeheerder"/>
+        <value type="string" value="netwerkbeheer-applet"/>
+        <value type="string" value="clipman"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="show-notifications" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="chromium.instance10558;chromium.instance1175425;chromium.instance13479;chromium.instance13795;chromium.instance14626;chromium.instance14848;chromium.instance148991;chromium.instance15423;chromium.instance16005;chromium.instance20724;chromium.instance25408;chromium.instance2931;chromium.instance29444;chromium.instance32326;chromium.instance33844;chromium.instance3938;chromium.instance39506;chromium.instance3996;chromium.instance4307;chromium.instance52615;chromium.instance5663;chromium.instance6344;chromium.instance80361;chromium.instance8109;chromium.instance9018;chromium.instance9206;chromium.instance9718;chromium.instance9992;firefox.instance2494;firefox.instance3231005"/>
+    </property>
+    <property name="plugin-10" type="string" value="notification-plugin"/>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock">
+      <property name="mode" type="uint" value="2"/>
+      <property name="timezone" type="string" value="Europe/Brussels"/>
+      <property name="tooltip-format" type="string" value="%A %d %B %Y"/>
+      <property name="digital-format" type="string" value="%d %b %H:%M"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+      <property name="expand" type="bool" value="false"/>
+    </property>
+    <property name="plugin-14" type="string" value="actions">
+      <property name="appearance" type="uint" value="1"/>
+      <property name="button-title" type="uint" value="0"/>
+    </property>
+    <property name="plugin-20" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17180305444.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-21" type="string" value="separator">
+      <property name="style" type="uint" value="1"/>
+      <property name="expand" type="bool" value="false"/>
+    </property>
+    <property name="plugin-22" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/IRC.LOCAL/jcolman"/>
+    </property>
+    <property name="plugin-7" type="string" value="tasklist">
+      <property name="show-labels" type="bool" value="false"/>
+      <property name="flat-buttons" type="bool" value="false"/>
+      <property name="show-handle" type="bool" value="false"/>
+      <property name="grouping" type="uint" value="0"/>
+      <property name="window-scrolling" type="bool" value="false"/>
+      <property name="sort-order" type="uint" value="1"/>
+      <property name="include-all-monitors" type="bool" value="true"/>
+    </property>
+    <property name="plugin-27" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-30" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-31" type="string" value="separator"/>
+    <property name="plugin-32" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-33" type="string" value="separator"/>
+    <property name="plugin-34" type="string" value="separator"/>
+    <property name="plugin-35" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-36" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="clipman" type="empty">
+      <property name="tweaks" type="empty">
+        <property name="max-menu-items" type="uint" value="30"/>
+      </property>
+      <property name="settings" type="empty">
+        <property name="max-texts-in-history" type="uint" value="200"/>
+      </property>
+    </property>
+    <property name="plugin-2" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="17897434791.desktop"/>
+      </property>
+      <property name="disable-tooltips" type="bool" value="false"/>
+      <property name="show-label" type="bool" value="false"/>
+    </property>
+  </property>
+</channel>
