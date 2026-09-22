@@ -17,7 +17,7 @@ Bestanden staan onder hun home-relatieve pad:
 ## Voortgang
 
 - [x] Fase 1 — terminal & fonts (kitty + JetBrainsMono Nerd Font + Tokyo Night)
-- [ ] Fase 2 — GTK-thema + icons + wallpaper
+- [x] Fase 2 — GTK-thema (Tokyonight-Dark-Storm) + Colloid-dark icons + wallpaper
 - [ ] Fase 3 — picom (geen blur) + xfce4-panel + rofi
 - [ ] Fase 4 — conky + fastfetch
 
@@ -40,6 +40,25 @@ ln -sf ~/.local/kitty.app/bin/kitty ~/.local/bin/kitty
 # configs
 cp -a .config/kitty            ~/.config/
 cp -a zsh/.zshrc zsh/.p10k.zsh ~/dotfiles/   # of ~/ afhankelijk van je setup
+```
+
+## Fase 2 — desktop-thema
+
+GTK/xfwm4-thema **Tokyonight-Dark-Storm** (build met `sassc`), icons
+**Colloid-dark**, en een lokaal met ImageMagick gegenereerde Tokyo Night
+wallpaper.
+
+```bash
+# thema bouwen + installeren naar ~/.themes
+curl -fsSL -o /tmp/tn.tar.gz \
+  https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme/archive/refs/heads/master.tar.gz
+tar xf /tmp/tn.tar.gz -C /tmp
+cd /tmp/Tokyonight-GTK-Theme-master/themes && bash install.sh -c dark -t default --tweaks storm
+
+# toepassen (of run xfce-appearance/apply-appearance.sh)
+xfconf-query -c xsettings -p /Net/ThemeName     -s "Tokyonight-Dark-Storm"
+xfconf-query -c xfwm4     -p /general/theme      -s "Tokyonight-Dark-Storm"
+xfconf-query -c xsettings -p /Net/IconThemeName  -s "Colloid-dark"
 ```
 
 ## Geen secrets
