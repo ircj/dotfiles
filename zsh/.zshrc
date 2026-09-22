@@ -1,3 +1,9 @@
+# Fastfetch bij het openen van een interactieve terminal (Tokyo Night rice).
+# Moet vóór de p10k instant-prompt-preamble staan (console-output is daar toegestaan).
+if [[ -o interactive ]] && command -v fastfetch >/dev/null 2>&1; then
+  fastfetch
+fi
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -145,8 +151,3 @@ pn()   { _load_nvm; pn "$@"; }
 # export PATH="$DOTNET_ROOT:$HOME/.dotnet/tools:$PATH"
 # export DOTNET_MULTILEVEL_LOOKUP=1
 export PATH="$PATH:$HOME/.dotnet/tools/"
-
-# Fastfetch bij het openen van een interactieve terminal (Tokyo Night rice)
-if [[ -o interactive ]] && command -v fastfetch >/dev/null 2>&1; then
-  fastfetch
-fi
