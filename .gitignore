@@ -8,3 +8,4 @@
 # OS-rommel
 .DS_Store
 Thumbs.db
+.config/ulauncher/user-themes/*/generated.css
