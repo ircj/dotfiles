@@ -17,7 +17,7 @@ Bestanden staan onder hun home-relatieve pad:
 ## Voortgang
 
 - [x] Fase 1 — terminal & fonts (kitty + JetBrainsMono Nerd Font + Tokyo Night)
-- [x] Fase 2 — GTK-thema (Tokyonight-Dark-Storm) + Colloid-dark icons + wallpaper
+- [x] Fase 2 — GTK-thema (Tokyonight-Dark-Storm) + Tela-circle-blue-dark icons + wallpaper
 - [x] Fase 3 — picom (xrender, geen blur) + transparant panel + ulauncher thema
 - [x] Fase 4 — conky Tokyo Night widget + fastfetch (polyfilled)
 
