@@ -23,11 +23,15 @@ xfconf-query -c xfce4-panel -p /plugins/plugin-100/show-button-title -n -t bool 
 # Uitrekkende separator (id 5) om rechterkant weg te duwen
 xfconf-query -c xfce4-panel -p /plugins/plugin-5/expand -n -t bool -s true
 # Opgeschoonde plugin-volgorde
-xfconf-query -c xfce4-panel -p /panels/panel-1/plugin-ids -t int -s 100 -t int -s 2 -t int -s 4 -t int -s 5 -t int -s 6 -t int -s 8 -t int -s 10 -t int -s 12 -t int -s 14
+# Vaste spacer tussen klok en naam (actions)
+xfconf-query -c xfce4-panel -p /plugins/plugin-101 -n -t string -s "separator"
+xfconf-query -c xfce4-panel -p /plugins/plugin-101/style -n -t int -s 0
+xfconf-query -c xfce4-panel -p /plugins/plugin-101/expand -n -t bool -s false
+xfconf-query -c xfce4-panel -p /panels/panel-1/plugin-ids -t int -s 100 -t int -s 2 -t int -s 4 -t int -s 5 -t int -s 6 -t int -s 8 -t int -s 10 -t int -s 12 -t int -s 101 -t int -s 14
 # Afmetingen + klok + achtergrond
-xfconf-query -c xfce4-panel -p /panels/panel-1/size -s 34
-xfconf-query -c xfce4-panel -p /panels/panel-1/icon-size -s 20
-xfconf-query -c xfce4-panel -p /panels/panel-1/length -s 98
+xfconf-query -c xfce4-panel -p /panels/panel-1/size -s 28
+xfconf-query -c xfce4-panel -p /panels/panel-1/icon-size -s 18
+xfconf-query -c xfce4-panel -p /panels/panel-1/length -s 100
 xfconf-query -c xfce4-panel -p /plugins/plugin-12/digital-format -s "%a %d %b  %H:%M"
 xfconf-query -c xfce4-panel -p /plugins/plugin-12/tooltip-format -s "%A %d %B %Y"
 xfconf-query -c xfce4-panel -p /panels/panel-1/background-style -s 1
