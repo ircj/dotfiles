@@ -27,7 +27,11 @@ xfconf-query -c xfce4-panel -p /plugins/plugin-5/expand -n -t bool -s true
 xfconf-query -c xfce4-panel -p /plugins/plugin-101 -n -t string -s "separator"
 xfconf-query -c xfce4-panel -p /plugins/plugin-101/style -n -t int -s 0
 xfconf-query -c xfce4-panel -p /plugins/plugin-101/expand -n -t bool -s false
-xfconf-query -c xfce4-panel -p /panels/panel-1/plugin-ids -t int -s 100 -t int -s 2 -t int -s 4 -t int -s 5 -t int -s 6 -t int -s 8 -t int -s 10 -t int -s 12 -t int -s 101 -t int -s 14
+# Spacer na de naam zodat het niet tegen de rechterrand staat
+xfconf-query -c xfce4-panel -p /plugins/plugin-102 -n -t string -s "separator"
+xfconf-query -c xfce4-panel -p /plugins/plugin-102/style -n -t int -s 0
+xfconf-query -c xfce4-panel -p /plugins/plugin-102/expand -n -t bool -s false
+xfconf-query -c xfce4-panel -p /panels/panel-1/plugin-ids -t int -s 100 -t int -s 2 -t int -s 4 -t int -s 5 -t int -s 6 -t int -s 8 -t int -s 10 -t int -s 12 -t int -s 101 -t int -s 14 -t int -s 102
 # Afmetingen + klok + achtergrond
 xfconf-query -c xfce4-panel -p /panels/panel-1/size -s 28
 xfconf-query -c xfce4-panel -p /panels/panel-1/icon-size -s 18
